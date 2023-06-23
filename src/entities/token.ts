@@ -82,4 +82,6 @@ export const WETH = {
   [ChainId.KOVAN]: new Token(ChainId.KOVAN, '0xd0A1E359811322d97991E03f863a0C30C2cF029C', 18, 'WETH', 'Wrapped Ether'),
   [ChainId.POLYGON] : new Token(ChainId.POLYGON, '0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619', 18, 'WETH', 'Wrapped Ether'),
   [ChainId.POLYGON_MUMBAI]: new Token(ChainId.POLYGON_MUMBAI, '0xFAd46E603A294a0eAc73DDC02D7ef30443a89414', 18, 'WETH', 'Wrapped Ethereum'),
+  [ChainId.BINANCE_TESTNET]: new Token(ChainId.BINANCE_TESTNET, '0x1d8eBAF2478067128dA314a9cce05F37B90874dF', 18, 'WETH', 'Wrapped Ethereum'),
+  [ChainId.BINANCE]: new Token(ChainId.BINANCE, '0x2170ed0880ac9a755fd29b2688956bd959f933f8', 18, 'ETH', 'Ethereum Token')
 }
