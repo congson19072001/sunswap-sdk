@@ -10,7 +10,9 @@ export enum ChainId {
   GÖRLI = 5,
   KOVAN = 42,
   POLYGON = 137,
-  POLYGON_MUMBAI = 80001
+  POLYGON_MUMBAI = 80001,
+  BINANCE = 56,
+  BINANCE_TESTNET = 97,
 }
 
 export enum TradeType {
